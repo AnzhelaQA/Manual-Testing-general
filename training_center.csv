@@ -1,0 +1,79 @@
+﻿sep=,
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C176","Verify possibility to fill ""Training Name"" field","","Anzhela Khachatryan","3/16/2022 8:37 AM","","","","","","","High","","Verify application fields","0","","Verify application fields","1. Fill ""Training Name"" field correct information
+Expected Result:
+1. Тhe system allows filling the field
+2. The system found this training
+2. Fill ""Training Name"" field field incorrect information
+Expected Result:
+1. The system should displays error message","","","1. Тhe system allows filling the field
+2. The system found this training","","","Fill "Training Name" field correct information","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 11:26 AM"
+"","","","","","","","","","","","","","","","","","","","","1. The system should displays error message","","","Fill "Training Name" field field incorrect information","","","","","",""
+"C178","Verify  Start / End Dates  pickers  are available","","Anzhela Khachatryan","3/16/2022 8:51 AM","","","","","","","High","","Verify application fields","0","","Verify application fields","1. Click field ""Start date""
+Expected Result:
+1. The system must shows date pickers
+2. Click field ""End date""
+Expected Result:
+1. The system must shows date pickers","","","1. The system must shows date pickers","","","Click field "Start date"","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 8:56 AM"
+"","","","","","","","","","","","","","","","","","","","","1. The system must shows date pickers","","","Click field "End date"","","","","","",""
+"C179","Verify ""Training center"" field","","Anzhela Khachatryan","3/16/2022 8:58 AM","","","","","","","High","","Verify application fields","0","","Verify application fields","1. Click ""Training Center"" field
+Expected Result:
+The system should shows empty field and drop-down list","","","The system should shows empty field and drop-down list","","","Click "Training Center" field","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 9:00 AM"
+"C181","Verify  is field ""Duration"" shows result correctly","","Anzhela Khachatryan","3/16/2022 9:02 AM","","","","","","","High","","Verify application fields","0","","Verify application fields","1. Choose ""Start_Date""
+Expected Result:
+The system should displays date pickers
+2. Choose ""End_Date""
+Expected Result:
+The system should displays date pickers
+3. Verify ""Duration"" field
+Expected Result:
+the system should show the number of days","","","The system should displays date pickers","","","Choose "Start_Date"","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 9:18 AM"
+"","","","","","","","","","","","","","","","","","","","","The system should displays date pickers","","","Choose "End_Date"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","the system should show the number of days","","","Verify "Duration" field","","","","","",""
+"C191","Verify ""Training Price"" field","","Anzhela Khachatryan","3/16/2022 11:29 AM","","","","","","","Medium","","Verify application fields","0","","Verify application fields","1. Check how filled out ""Training Price"" field 
+Expected Result:
+Currency must be showed next to price","","","Currency must be showed next to price","","","Check how filled out "Training Price" field ","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 11:36 AM"
+"C182","Verify ""Search"" button functionality","","Anzhela Khachatryan","3/16/2022 9:22 AM","","","","","","","High","","Verify application buttons","0","","Verify application buttons","1. Click ""Training Center"" field
+Expected Result:
+The system should displays drop-down list
+2. Select favorite training center and click ""Search"" button
+Expected Result:
+Search button works correctly. The system should displays selected information","","","The system should displays drop-down list","","","Click "Training Center" field","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/21/2022 10:40 AM"
+"","","","","","","","","","","","","","","","","","","","","Search button works correctly. The system should displays selected information","","","Select favorite training center and click "Search" button","","","","","",""
+"C183","Verify ""Reset"" button functionality","","Anzhela Khachatryan","3/16/2022 9:32 AM","","","","","","","High","","Verify application buttons","0","","Verify application buttons","1. Select information in field ""Training Center"" and fill ""Training Name"" field
+Expected Result:
+The system must show selected item
+2. Click ""Reset"" button
+Expected Result:
+The system should clean selected information in ""Training Center"" and ""Training name"" fields 
+3. Try to repeat this operation by filling in only one of the fields
+Expected Result:
+The result should be the same which in steps 2 and 1","","","The system must show selected item","","","Select information in field "Training Center" and fill "Training Name" field","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/21/2022 10:55 AM"
+"","","","","","","","","","","","","","","","","","","","","The system should clean selected information in "Training Center" and "Training name" fields ","","","Click "Reset" button","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The result should be the same which in steps 2 and 1","","","Try to repeat this operation by filling in only one of the fields","","","","","",""
+"C184","Verify ""Delete"" button is available for identify closed trainings","","Anzhela Khachatryan","3/16/2022 9:45 AM","","","","","","","High","","Verify application buttons","0","","Verify application buttons","1. Select ""Closed Trainings"" 
+Expected Result:
+The system should shows closed trainings list.
+2. Click ""Delete"" button
+Expected Result:
+The button is available, clickable and clear or selected items","","","The system should shows closed trainings list.","","","Select "Closed Trainings" ","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 10:09 AM"
+"","","","","","","","","","","","","","","","","","","","","The button is available, clickable and clear or selected items","","","Click "Delete" button","","","","","",""
+"C189","Verify ""Insert new Row"" button functionality","","Anzhela Khachatryan","3/16/2022 11:00 AM","","","","","","","High","","Verify application buttons","0","","Verify application buttons","1. Fill ""Training Name"" field
+Expected Result:
+The button ""Insert new row"" must become active
+2. Click button ""Insert new row""
+Expected Result:
+New training course must be entered in system","","","The button "Insert new row" must become active","","","Fill "Training Name" field","Anzhela Khachatryan","S24","Test Case (Steps)","Functional","Anzhela Khachatryan","3/16/2022 11:10 AM"
+"","","","","","","","","","","","","","","","","","","","","New training course must be entered in system","","","Click button "Insert new row"","","","","","",""
+"C185","Verify is logo of project available","","Anzhela Khachatryan","3/16/2022 10:13 AM","","","","","","","Medium","","Verify home page design","0","","Verify home page design","1. Open application home page and see correct logo of project
+Expected Result:
+Correct logo must displayed","","","Correct logo must displayed","","","Open application home page and see correct logo of project","Anzhela Khachatryan","S24","Test Case (Steps)","Other","Anzhela Khachatryan","3/16/2022 10:17 AM"
+"C186","Verify spelling mistakes","","Anzhela Khachatryan","3/16/2022 10:17 AM","","","","","","","Medium","","Verify home page design","0","","Verify home page design","1. Open home page, check all spelling mistakes
+Expected Result:
+All words must be written correctly","","","All words must be written correctly","","","Open home page, check all spelling mistakes","Anzhela Khachatryan","S24","Test Case (Steps)","Other","Anzhela Khachatryan","3/16/2022 10:38 AM"
+"C187","Verify are name of fields , buttons corresponds with requirements","","Anzhela Khachatryan","3/16/2022 10:30 AM","","","","","","","Medium","","Verify home page design","0","","Verify home page design","1. Open application home page, check are all name of fields, buttons corresponds  with requirements
+Expected Result:
+Names of fields, buttons the same with requirement","","","Names of fields, buttons the same with requirement","","","Open application home page, check are all name of fields, buttons corresponds  with requirements","Anzhela Khachatryan","S24","Test Case (Steps)","Other","Anzhela Khachatryan","3/16/2022 10:38 AM"
+"C190","Verify the correct alignment of all buttons","","Anzhela Khachatryan","3/16/2022 11:12 AM","","","","","","","High","","Verify home page design","0","","Verify home page design","1. Open application home page and check all buttons alignment
+Expected Result:
+The buttons must be in one alignment","","","The buttons must be in one alignment","","","Open application home page and check all buttons alignment","Anzhela Khachatryan","S24","Test Case (Steps)","Usability","Anzhela Khachatryan","3/16/2022 11:24 AM"

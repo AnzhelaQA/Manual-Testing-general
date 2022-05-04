@@ -1,0 +1,111 @@
+﻿sep=,
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C2","Opertion Start","","Anzhela Khachatryan","3/5/2022 4:53 PM","","","","","","The ATM machine must be active, connected to the power and communication system.","High","","Test Cases","0","","Test Cases","1. Customer entered ATM card
+Expected Result:
+Card is accepted, the system ask for enter PIN
+2. Customer entered invalid PIN
+Expected Result:
+System eject card
+3. Customer entered valid PIN
+Expected Result:
+System displayed menu of operations","","","Card is accepted, the system ask for enter PIN","","","Customer entered ATM card","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 7:51 AM"
+"","","","","","","","","","","","","","","","","","","","","System eject card","","","Customer entered invalid PIN","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","System displayed menu of operations
+","","","Customer entered valid PIN","","","","","",""
+"C3","Choose operation type - getting cash","","Anzhela Khachatryan","3/5/2022 5:19 PM","","","","","","The system verified a card","High","","Test Cases","0","","Test Cases","1. Getting cash
+Expected Result:
+1. Take cash and system displays information ""Print out a receipt""
+
+
+
+2. Choose button ""Yes""
+Expected Result:
+The system print out a receipt
+3. Choose button ""No""
+Expected Result:
+The system eject a card
+4. System displays information ""Not enough money""
+Expected Result:
+System eject a card","","","1. Take cash and system displays information "Print out a receipt"
+
+
+","","","Getting cash","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 7:54 AM"
+"","","","","","","","","","","","","","","","","","","","","The system print out a receipt","","","Choose button "Yes"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system eject a card","","","Choose button "No"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","System eject a card","","","System displays information "Not enough money"","","","","","",""
+"C12","Transaction termination"," None","Anzhela Khachatryan","3/6/2022 7:49 AM","","","","","","The system verified a card. Customer choose operation type.","High","","Test Cases","0","","Test Cases","1. Customer choose wrong type of operation.
+Expected Result:
+The system should accept ""Cancel"" operation
+2. Customer input button ""Cancel""
+Expected Result:
+The system displays information ""If you want choose other operation type?"" 
+3. Customer input button ""Yes""
+Expected Result:
+The system displays main menu
+4. Customer input button ""Cancel""
+Expected Result:
+The system should eject card","","","The system should accept "Cancel" operation","","","Customer choose wrong type of operation.","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 7:49 AM"
+"","","","","","","","","","","","","","","","","","","","","The system displays information "If you want choose other operation type?" ","","","Customer input button "Cancel"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system displays main menu","","","Customer input button "Yes"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system should eject card","","","Customer input button "Cancel"","","","","","",""
+"C13","Choose operation type - deposit money to the account:","","Anzhela Khachatryan","3/6/2022 8:01 AM","","","","","","The system verified a card and customer choose type of operation.
+
+","High","","Test Cases","0","","Test Cases","1. Customer choose button ""Deposit money to the account""
+Expected Result:
+System displays a request for the customer to type of amount
+
+2. Customer choose type of amount
+Expected Result:
+The system displays type of amount AMD, Dollar, EUR, RUB, e.t.c
+3. Customer entered amount
+Expected Result:
+The system displays entered sum.
+4. Customer approve the operation
+Expected Result:
+The system displays ""If you want to make another transaction?""
+5. Customer choose button ""Yes""
+Expected Result:
+The system displays main menu.
+6. Customer choose button ""No""
+Expected Result:
+The system ask ""If you want to print receipt?""
+7. Customer choose button ""Yes""
+Expected Result:
+The system print receipt and eject the card
+8. Customer choose button ""No""
+Expected Result:
+The system eject a card","","","System displays a request for the customer to type of amount
+","","","Customer choose button "Deposit money to the account"","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 8:15 AM"
+"","","","","","","","","","","","","","","","","","","","","The system displays type of amount AMD, Dollar, EUR, RUB, e.t.c","","","Customer choose type of amount","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system displays entered sum.","","","Customer entered amount","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system displays "If you want to make another transaction?"","","","Customer approve the operation","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system displays main menu.","","","Customer choose button "Yes"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system ask "If you want to print receipt?"","","","Customer choose button "No"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system print receipt and eject the card","","","Customer choose button "Yes"","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system eject a card","","","Customer choose button "No"","","","","","",""
+"C14","Choose operation type - check balance","","Anzhela Khachatryan","3/6/2022 8:26 AM","","","","","","The system verified a card","Medium","","Test Cases","0","","Test Cases","1. Customer entered card, choose balance
+Expected Result:
+The system must verified card and displays balance and ask ""If you want make another transaction?""
+2. Customer choose ""Yes"" button
+Expected Result:
+The system displays main menu
+3. Customer choose ""No"" button
+Expected Result:
+The system eject card","","","The system must verified card and displays balance and ask "If you want make another transaction?"","","","Customer entered card, choose balance","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 8:27 AM"
+"","","","","","","","","","","","","","","","","","","","","The system displays main menu","","","Customer choose "Yes" button","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system eject card","","","Customer choose "No" button","","","","","",""
+"C15","Limit setting","","Anzhela Khachatryan","3/6/2022 8:42 AM","","","","","","The customer entered card, valid PIN and choose operation type","High","","Test Cases","0","","Test Cases","1. Customer choosing the amount of money which upper limit
+Expected Result:
+The system displays ""Exceeding the limit"" and ""If you want choose another type of operation?""
+2. Customer select ""Yes"" button
+Expected Result:
+The system displays main menu
+3. Customer select ""No"" button
+Expected Result:
+The system eject card
+4. Customer choosing a lower limit amount
+Expected Result:
+The system displays ""Enter the amount below the set lower limit"" and eject card","","","The system displays "Exceeding the limit" and "If you want choose another type of operation?"","","","Customer choosing the amount of money which upper limit","Anzhela Khachatryan","S2","Test Case (Steps)","Functional","Anzhela Khachatryan","3/6/2022 8:46 AM"
+"","","","","","","","","","","","","","","","","","","","","The system displays main menu","","","Customer select "Yes" button","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system eject card","","","Customer select "No" button","","","","","",""
+"","","","","","","","","","","","","","","","","","","","","The system displays "Enter the amount below the set lower limit" and eject card","","","Customer choosing a lower limit amount","","","","","",""
